@@ -1,0 +1,17 @@
+.anniversaire{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+  height:100vh;
+}
+
+.anniversaire p{
+  text-align:justify;
+  margin:5px;
+}
+
+.anniversaire iframe{
+  width:80%;
+  height:auto;
+}

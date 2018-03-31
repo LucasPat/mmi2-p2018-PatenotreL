@@ -1,0 +1,36 @@
+.justice  h2{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+    text-align: center;
+}
+.justice p {
+  text-align: justify;
+}
+
+.justice img{
+  width:80%;
+}
+.justice {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.justice_live {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.justice_live h3 {
+    text-align: center;
+
+}
+
+.justice_live iframe{
+  width:80%;
+  height:auto;
+}
