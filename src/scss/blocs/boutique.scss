@@ -1,0 +1,18 @@
+.boutique_image{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+
+.boutique_image img{
+  width:130px;
+  margin:10px 0;
+  height:auto;
+}
+
+@media screen and (min-width: 600px) {
+  .boutique_image img{
+    width:30%;
+  }
+}

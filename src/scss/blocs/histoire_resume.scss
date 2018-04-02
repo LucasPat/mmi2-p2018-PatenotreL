@@ -1,0 +1,41 @@
+
+
+.histoire_resume{
+  height:100vh;
+  width:100vw;
+}
+
+.histoire_resume_content {
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-direction: column;
+  height:100vh;
+  width:100vw;
+}
+
+.histoire_resume_content img{
+  width:80%;
+}
+
+.histoire_resume_content p{
+  text-align: justify;
+  margin:5px;
+}
+
+@media screen and (min-width: 600px) {
+
+  .histoire_resume{
+    height:70vh;
+    width:50vw;
+  }
+
+  .histoire_resume_content img{
+  width:40%;
+  }
+
+  .histoire_resume_content{
+    height:70vh;
+    width:50vw;
+  }
+}

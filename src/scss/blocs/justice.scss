@@ -1,9 +1,4 @@
-.justice  h2{
-  display:flex;
-  align-items:center;
-  justify-content: center;
-    text-align: center;
-}
+
 .justice p {
   text-align: justify;
 }
@@ -31,6 +26,29 @@
 }
 
 .justice_live iframe{
-  width:80%;
+  width:80vw;
   height:auto;
+}
+
+@media screen and (min-width: 600px) {
+  .justice_description, .justice_live {
+    width:50vw;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .justice{
+    height:70vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .justice_live iframe{
+    height:315px;
+    width:560px;
+  }
 }

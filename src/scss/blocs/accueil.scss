@@ -7,3 +7,11 @@ background-position: 50%;
 background-repeat: no-repeat;
 background-size:80%;
 }
+
+@media screen and (min-width: 600px) {
+
+  .accueil_image{
+   height:30vh;
+   background-size:15%;
+  }
+}
