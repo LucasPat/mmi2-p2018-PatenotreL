@@ -23,6 +23,9 @@
   flex-direction: column;
 }
 
+.justice_description iframe{
+}
+
 .justice_live {
   display:flex;
   flex-direction: column;
@@ -70,5 +73,12 @@
   .justice_live iframe{
     height:315px;
     width:560px;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .justice_live iframe{
+    height:157px;
+    width:280px;
   }
 }
