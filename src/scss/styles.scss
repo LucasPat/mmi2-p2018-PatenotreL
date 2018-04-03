@@ -1,4 +1,3 @@
-@import 'blocs/header';
 @import 'blocs/footer';
 @import 'blocs/accueil';
 @import 'blocs/histoire';
@@ -7,6 +6,9 @@
 @import 'blocs/paralax';
 @import 'blocs/justice';
 @import 'blocs/boutique';
+
+
+
 
 @font-face {
  font-family: "Roboto";
@@ -25,6 +27,7 @@ h1 {
 
 body,html{
   margin:0;
+  font-size:18px;
 }
 
 

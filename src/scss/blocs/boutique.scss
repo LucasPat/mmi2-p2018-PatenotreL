@@ -1,3 +1,8 @@
+$bc_color:#252839;
+$color_white:white;
+$color_black:black;
+
+
 .boutique_image{
   display:flex;
   align-items: center;
@@ -6,8 +11,8 @@
 }
 
 .boutique{
-  background:white;
-  color:black;
+  background:$color_white;
+  color:$color_black;
 }
 
 .boutique h2{

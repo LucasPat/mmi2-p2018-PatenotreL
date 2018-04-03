@@ -1,3 +1,7 @@
+$bc_color:#252839;
+$color_white:white;
+$color_black:black;
+
 
 .justice p {
   text-align: justify;
@@ -15,8 +19,8 @@
 }
 
 .justice_description {
-  background: #252839;
-  color:white;
+  background:$bc_color ;
+  color:$color_white;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -53,13 +57,13 @@
   }
 
   .justice_description{
-    background: white;
-    color:black;
+    background: $color_white;
+    color:$color_black;
   }
 
   .justice_live{
-    background: #252839;
-    color:white;
+    background: $bc_color;
+    color:$color_white;
   }
 
   .justice{
