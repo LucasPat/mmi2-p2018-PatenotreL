@@ -1,6 +1,7 @@
 
 .justice p {
   text-align: justify;
+  margin:5px;
 }
 
 .justice img{
@@ -11,6 +12,15 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
+}
+
+.justice_description {
+  background: #252839;
+  color:white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .justice_live {
@@ -37,6 +47,16 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .justice_description{
+    background: white;
+    color:black;
+  }
+
+  .justice_live{
+    background: #252839;
+    color:white;
   }
 
   .justice{
