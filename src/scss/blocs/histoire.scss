@@ -1,9 +1,52 @@
 
-@media screen and (min-width: 600px) {
-.histoire{
+.histoire_resume_content_titre{
   display:flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width:100vw;
+  padding-left:10%;
+}
+
+.histoire p{
+  padding:10px;
+}
+.histoire h2{
+  padding:0;
+  margin:0;
+}
+.histoire hr{
+  width:100%;
+  height:3px;
+  background:white;
+}
+
+.histoire_anniversaire hr{
+  background-color: black;
+}
+
+@media screen and (min-width: 600px) {
+  .histoire{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .histoire_resume_content_titre{
+    align-items: center;
+    justify-content: center;
+    padding:0 0;
+    width:50vw;
+  }
+
+  .histoire_resume_content_titre hr{
+    height:3px;
+    background:white;
+    width:30%;
+  }
+
+  .histoire p{
+  padding:25px;
 }
 }
 

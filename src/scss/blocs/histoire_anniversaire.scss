@@ -1,3 +1,5 @@
+
+
 .histoire_anniversaire{
   display:flex;
   flex-direction:column;
@@ -14,6 +16,14 @@
 .histoire_anniversaire iframe{
   width:90vw;
 }
+.histoire_anniversaire_titre{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width:100vw;
+  padding-left:10%;
+}
 
 
 @media screen and (min-width: 600px) {
@@ -22,7 +32,18 @@
     height:70vh;
     width:50vw;
   }
-.histoire_anniversaire iframe{
-  width:30vw;
-}
+  .histoire_anniversaire iframe{
+    width:30vw;
+  }
+  .histoire_anniversaire_titre{
+     align-items: center;
+    justify-content: center;
+    padding:0 0;
+    width:50vw;
+  }
+  .histoire_anniversaire_titre hr{
+    height:3px;
+    background:black;
+    width:30%;
+  }
 }

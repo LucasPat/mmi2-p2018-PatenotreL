@@ -5,7 +5,7 @@ $color_black:black;
 
 .justice p {
   text-align: justify;
-  margin:5px;
+  padding:10px;
 }
 
 .justice img{
@@ -27,6 +27,9 @@ $color_black:black;
   flex-direction: column;
 }
 
+
+
+
 .justice_description iframe{
 }
 
@@ -45,6 +48,22 @@ $color_black:black;
 .justice_live iframe{
   width:80vw;
   height:auto;
+}
+
+.justice_live_titre{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width:100vw;
+  padding-left:10%;
+}
+
+.justice_live_titre hr{
+  width:100%;
+  height:3px;
+  background:black;
+
 }
 
 @media screen and (min-width: 600px) {
@@ -78,6 +97,22 @@ $color_black:black;
     height:315px;
     width:560px;
   }
+    .justice_live_titre{
+    align-items: center;
+    justify-content: center;
+    padding:0 0;
+    width:50vw;
+  }
+    .justice_live_titre hr{
+    height:3px;
+    background:white;
+    width:30%;
+  }
+    .justice p{
+  padding:25px;
+}
+
+
 }
 
 @media screen and (max-width: 950px){
